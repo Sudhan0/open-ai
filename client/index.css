@@ -1,0 +1,75 @@
+.bottom-div {
+    position: sticky;
+    width: 70%;
+    left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.input-bar{
+    width: 100%;
+    height: fit-content;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+body{
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+
+#myOutput{
+    background: white;
+    width: 100%;
+}
+
+.user-content-div{
+    margin-left: 10px;
+    justify-content: center;
+}
+
+.ai-content-div{
+    margin-left: 10px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.user-container{
+    background-color:#BCADAD;
+    color: white;
+    padding: 2px 2px 2px 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.ai-container{
+    background-color:black;
+    color: white;
+    padding: 2px 2px 2px 2px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: #E54040;
+    margin: 5px;
+    justify-content: center;
+}
+
+.base-container{
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+
+i{
+    padding: 2px;
+    margin: 20px;
+    justify-content: center;
+}
